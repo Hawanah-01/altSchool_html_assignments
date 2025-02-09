@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b0082;
+    padding: 10px;
+}
+
+nav a{
+    display: inline;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: #504966;
+}
+.first-section,
+.middle-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+
+}
+
+.middle-row h4 {
+    display: block;
+
+}
+
+.middle-row a {
+    display: inline-block;
+    background-color: #008847;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.middle-row a:hover {
+    background-color: #059862;
+}
+
+.middle-row img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.second-section {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.bottom-row{
+    display: block;
+    padding: 50px 
+}
+
+.bottom-row img {
+    width: 150px;
+}
+
+.bottom-row video {
+    width: 15vw;
+    height: 35vh;
+}
+
+.bottom-row-text{
+    display: flex;
+    text-align: justify;
+}
+
+/* Responsive Design for tablet */
+
+@media (max-width: 768px){
+    .second-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-row{
+        width: 100%;
+    }
+}
+
+/* Responsive design for mobile */
+@media (max-width: 468px){
+    body{
+        padding: 10px;
+    }
+    
+    h4{
+        font-size: 1rem;
+    }
+
+    .middle-row a{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

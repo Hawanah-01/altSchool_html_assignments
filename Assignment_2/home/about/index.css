@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#e0d2c9 ;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 10px;
+}
+
+header a{
+    padding: 5px;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+p span{
+    color:#6f358e ;
+    font-weight: bold;
+}
+
+a:hover{
+    background: #6f358e;
+    color: #ffffff;
+}
+
+footer{
+    padding-top: 10px;
+    
+    h4{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+}
